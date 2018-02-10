@@ -526,6 +526,7 @@ p.footer {
     .APC {
     left: -138px;
     width: 712px;
+    padding-bottom: 30px;
 }
 
     .selfie {
@@ -564,11 +565,32 @@ p.footer {
     width: 167px;
 }
 
+/* portfolio */
 
-
-
+img.x2.y2,
+img.x2.y3,
+p.x2.y2,
+p.x2.y3 {
+    margin: -199px 48px 0px 48px;
+    float: right;
 }
 
+p.x2.y2,
+p.x2.y3 {
+    margin-top: -85px;
+}
+
+
+/* contact */
+
+.form-name, .form-email, .form-message {
+    position: relative;
+    left: -30px;
+    width: 649px;
+    margin-left: 27px;
+}
+
+}
 
 
 @media screen and (max-width:640px) {
@@ -661,6 +683,56 @@ h3 {
 footer {
 width: 592px;
 }
+
+/* portfolio */
+img.x1.y1, 
+img.x1.y2, 
+img.x1.y3, 
+img.x2.y2, 
+img.x2.y3,
+p.x1.y1, 
+p.x1.y2, 
+p.x1.y3, 
+p.x2.y2, 
+p.x2.y3 {
+    margin: 0px 0px 0px 33px;
+    float: left;
+    height: auto;
+    width: 88%;
+}
+
+img.x1.y1, 
+img.x1.y2, 
+img.x1.y3, 
+img.x2.y2, 
+img.x2.y3 {
+    margin-top:25px;
+
+}
+
+p.x1.y1, 
+p.x1.y2, 
+p.x1.y3, 
+p.x2.y2, 
+p.x2.y3 {
+    margin: -85px 0px 0px 33px;
+    width: 421px;
+    height: auto;
+
+}
+
+p.x1.y1,
+p.x2.y2 {
+    margin: -85px 0px 0px 33px;
+    width: 475px;
+    height: auto;
+}
+
+.form-name, .form-email, .form-message {
+    position: relative;
+    left: -30px;
+    width: 524px;
+    margin-left: 27px;
 
     
 }
