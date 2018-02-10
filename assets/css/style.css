@@ -1,0 +1,666 @@
+/* background image */
+body {
+    background-image: url("../images/dust_scratches.png");
+}
+
+
+/* font for all headings: namebox, About Me/Portfolio/Contact, and Connect with me */
+.headfont { 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+/* font for main and nav sections */
+.allotherfont {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+
+/* font color for headings in main section: About Me/Portfolio/Contact, and Connect with Me */
+.fontcolor-main { 
+    color: #4aaaa5;
+}
+
+
+/* font for text inside name and email sections in Contact */
+.form-font {
+    color: #dddddd;
+    font-size: 15px;
+    padding-left: 10px;
+    filter: opacity(50%);
+}
+
+.form-font:focus {
+    color: #777777;
+    font-size: 15px;
+    padding-left: 10px;
+    filter: opacity(100%);
+    border-color: #4aaaa5;
+}
+
+
+/* white bar across top; name and navigation links */
+header { 
+    background-color: #ffffff;
+    height: 90px;
+    overflow: auto;
+    clear: both;
+    margin: -10px -10px 30px -10px;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+
+/* name in header, top left */
+.namebox { 
+    float: left;
+    padding: 0px 40px 12px 40px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 160px;
+}
+
+
+/* name */
+h1 {
+    font-size: 30px;
+}
+
+
+/* navigation box in header, top right */
+nav { 
+    float: right;
+    width: 270px;
+    margin: 15px 125px 0px 0px;
+}
+
+
+/* vertical line in nav box; divides About & Portfolio, and Portfolio & Contact */
+p.navdivider {
+    float: left;
+    margin: 14px 0px 0px -15px;
+    filter: opacity(15%);
+}
+
+
+/* About link inside navigation box */
+.navA { 
+    float: left;
+    width: 25%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+
+/* Portfolio link in navbox  */
+.navP { 
+    float: left;
+    width: 32.3%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+
+/* Contact link in navbox */
+.navC { 
+    float: left;
+    width: 33.3%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+
+/* entire middle section: About Me/Portfolio/Contact and Connect with Me */
+main { 
+    margin: 0px 160px 20px 160px;
+}
+
+
+/* About Me/Portfolio/Contact section */
+.APC { 
+    overflow: auto;
+    clear: both;
+    float: left;
+    background-color: #ffffff;
+    /*width: 650px;*/
+    width: 68%;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    right: 9px;
+    margin-bottom: 30px;
+}
+
+
+/* heading for About Me/Portfolio/Contact */
+h2 {
+    margin: 32px;
+    font-size: 30px;
+}
+
+
+/* horizontal rule in About Me/Portfolio/Contact */
+hr.main{
+    margin: 0px 25px 0px 25px;
+    color: #dddddd;
+    background-color: #dddddd;
+    height: 3px;
+    border: 0;
+}
+
+
+/* About Me - self portrait */
+.selfie {
+    float: left;
+    margin: 34px 25px 15px 25px;
+}
+
+
+/* About Me - text in p-tags */
+.aboutp {
+    margin: 25px;
+    line-height: 2;
+}
+
+/* PORTFOLIO -  PORTFOLIO - PORTFOLIO - PORTFOLIO - PORTFOLIO - PORTFOLIO - PORTFOLIO
+format text in image captions */
+
+/* captions: hangman, rpg, and trivia */
+p.x1.y3,
+p.x2.y3,
+p.x1.y2 {
+    background-color: #4aaaa5;
+    /* height: 60px; */
+    width: 185px;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px 0px 20px 90px;
+    margin: 0px;
+}
+
+/* captions: rutgers info widget and rock, paper, scissors */
+p.x2.y2,
+p.x1.y1 {
+    background-color: #4aaaa5;
+    /* height: 60px; */
+    width: 240px;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px 0px 20px 35px;
+}
+
+
+
+
+/* PORTFOLIO -  PORTFOLIO - PORTFOLIO - PORTFOLIO - PORTFOLIO - PORTFOLIO - PORTFOLIO
+images & captions: floats and clearfixes */
+
+/* images & captions in left column */
+img.x1.y3,
+img.x1.y2,
+img.x1.y1 {
+    float: left;
+}
+
+p.x1.y3,
+p.x1.y2,
+p.x1.y1 {
+    float: left;
+    clear:both;
+    overflow: auto;
+}
+
+
+/* images & captions in right column */
+img.x2.y3,
+img.x2.y2 {
+    float: right;
+}
+
+p.x2.y3,
+p.x2.y2 {
+    clear: both;
+    overflow: auto;
+    float: right;
+}
+
+
+/* PORTFOLIO -  PORTFOLIO - PORTFOLIO - PORTFOLIO - PORTFOLIO - PORTFOLIO - PORTFOLIO
+images & captions: margins */
+
+/* hangman */
+img.x1.y3 {
+    margin: 40px 0px 0px 30px;
+}
+p.x1.y3 {
+    margin: -85px 0px 0px 30px;
+}
+
+/* rpg */
+img.x2.y3 {
+    margin: -200px 25px 0px 0px;
+}
+p.x2.y3 {
+    margin: -85px 25px 0px 0px;
+}
+
+/* trivia */
+img.x1.y2 {
+    margin: 30px 0px 0px 30px;
+}
+p.x1.y2 {
+    margin: -85px 0px 0px 30px;
+}
+
+/* rutgers info widget */
+img.x2.y2 {
+    margin: -200px 25px 0px 0px;
+}
+p.x2.y2 {
+    margin: -85px 25px 0px 0px;
+}
+
+/* rock paper scissors */
+img.x1.y1 {
+    margin: 25px 0px 30px 30px;
+}
+p.x1.y1 {
+    margin: -120px 0px 0px 30px;
+}
+
+
+
+/* Contact - entire form section: name, email, message */
+form {
+    margin: 25px;
+    color: 
+}
+
+
+/* name input section */
+.form-name {
+    height: 40px;
+    width: 575px;
+    margin: -10px 0px 10px 0px;
+}
+
+
+/* email input section */
+.form-email {
+    height: 40px;
+    width: 575px;
+    margin: -10px 0px 10px 0px;
+}
+
+/* message input section*/
+.form-message {
+    height: 200px;
+    width: 575px;
+    margin: -10px 0px 10px 0px;
+}
+
+/* Contact - button */
+.button {
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+
+/* Connect with Me section, middle right */
+aside { 
+    background-color: #ffffff;
+    height: 200px;
+    width: 270px;
+    /*width: 28%;*/
+    float: right;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+/* Connect with Me heading */
+h3 {
+    margin: 30px 0px 25px 30px;
+}
+
+
+/* horizontal rule in Connect with Me section */
+hr.aside {
+    margin: 0px 34px 0px 28px;
+    color: #f0f0f0;
+    background-color: #f0f0f0;
+    height: 2px;
+    border: 0;
+}
+
+
+/* icons for github, linked in, stackoverflow */
+.social {
+    margin: 15px 25px 25px 25px;
+}
+
+
+/* stackoverflow fix: image too large, resized(html), moved up(css) */
+.stack {
+    margin-bottom: 3px;
+}
+
+
+/* teal strip above footer */
+.footervalance {
+    clear: both;
+    overflow: auto;
+    background-color: #4aaaa5;
+    margin: 0px -10px 0px -10px;
+    padding: 5px;
+}
+
+
+/* grey bar across bottom */
+footer { 
+    background-color: #666666;
+    padding: 25px 430px 25px 430px;
+    margin: 0px -10px 0px -10px;
+    font-size: 12px;
+}
+
+
+
+
+
+/* "Copyright 2018 Ivan Saucedo" */
+p.footer {
+    position: relative;
+    top: 50%;
+    left: 30%;
+    color: #c5c2bc;
+}
+
+
+/* media queries */
+@media screen and (max-width:980px) {
+    
+
+/* about me */
+    .selfie {
+    float: left;
+    margin: 34px 25px 15px 25px;
+    height: auto;
+    width: 89%;
+    }
+
+    nav {
+    float: right;
+    width: 270px;
+    margin: 15px 109px 0px 0px;
+    }
+
+    aside {
+    background-color: #ffffff;
+    height: auto;
+    width: 217px;
+    float: right;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    }
+
+    .social {
+    margin: 15px 0px 25px 35px;
+    }
+
+    .APC {
+    overflow: auto;
+    clear: both;
+    float: left;
+    background-color: #ffffff;
+    width: 373px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    right: 9px;
+    margin-bottom: 30px;
+    }
+
+    img.git, 
+    img.linked {
+        height:auto;
+        width: 25%;
+    }
+
+    img.stack {
+         height:auto;
+        width: 23%;
+    }
+
+    p.footer {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    color: #c5c2bc;
+    height: auto;
+    width: 167px;
+    }
+
+/* portfolio */
+
+    img.x1.y1, 
+    img.x1.y2, 
+    img.x1.y3, 
+    img.x2.y2, 
+    img.x2.y3,
+    p.x1.y1, 
+    p.x1.y2, 
+    p.x1.y3, 
+    p.x2.y2, 
+    p.x2.y3 {
+        margin: 0px 0px 0px 48px;
+        float: left;
+    }
+
+    img.x1.y1, 
+    img.x1.y2, 
+    img.x1.y3, 
+    img.x2.y2, 
+    img.x2.y3 {
+        margin-top:25px;
+
+    }
+
+    p.x1.y1, 
+    p.x1.y2, 
+    p.x1.y3, 
+    p.x2.y2, 
+    p.x2.y3 {
+        margin-top: -85px;
+    }
+
+
+    /* contact */
+    .form-name,
+    .form-email, 
+    .form-message {
+        position: relative;
+        left: -30px;
+        width: 316px;
+        margin-left: 27px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:768px) {
+    header {
+    background-color: #ffffff;
+    height: auto;
+    width: 768px;
+    overflow: auto;
+    clear: both;
+    margin: -10px -95px 30px -10px;
+    border-bottom-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+    nav {
+    float: right;
+    width: 270px;
+    margin: 15px -25px 0px 0px;
+    }
+
+    .namebox {
+    margin-left: 30px;
+}
+
+    .APC {
+    left: -138px;
+    width: 712px;
+}
+
+    .selfie {
+    float: left;
+    margin: 34px 25px 15px 25px;
+    height: auto;
+    width: 50%;
+    }
+
+    aside {
+        width: 712px;
+        float: left;
+        margin-left: -136px;
+        margin-bottom: 50px;
+}
+
+.social {
+    margin: 15px 0px 25px 35px;
+    height: auto;
+    width: 30%;
+}
+
+footer {
+        background-color: #666666;
+        padding: 25px;
+        margin: 0px -10px 0px -10px;
+        font-size: 12px;
+}
+
+p.footer {
+    position: relative;
+    top: 50%;
+    left: 40%;
+    color: #c5c2bc;
+    height: auto;
+    width: 167px;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width:640px) {
+
+    header {
+        background-color: #ffffff;
+        height: auto;
+        width: 640px;
+        overflow: auto;
+        clear: both;
+        margin: -10px -95px 30px -10px;
+        border-bottom-color: #cccccc;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+    }
+
+
+.namebox {
+    width: 640px;
+    height: auto;
+    margin-left: 0px;
+    text-align:center;
+    padding: 0px;
+}
+
+nav {
+    float: left;
+    width: 640px;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+}
+
+p.navA {
+    margin-left: 115px;
+}
+
+p.navC {
+    width: 0px;
+}
+
+p.navdivider {
+    margin-left: -70px;
+}
+
+.APC {
+    left: -138px;
+    width: 580px;
+}
+
+aside {
+    width: 580px;
+    float: left;
+    margin-left: -136px;
+    margin-bottom: 50px;
+}
+
+.selfie {
+
+    height: auto;
+    width: 93%;
+}
+
+img.git, img.linked {
+    height: auto;
+    width: 30%;
+}
+
+img.stack {
+    height: auto;
+    width: 28%;
+}
+
+h2 {
+    margin: 32px;
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 35px;
+}
+  
+h3 {
+    font-size: 25px;
+}
+
+.footervalance {
+    width: 632px;
+}
+
+footer {
+width: 592px;
+}
+
+    
+}
